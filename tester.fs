@@ -5,4 +5,4 @@ cr ." invoking vvv"
 5 vvv  !
  vvv @ 
 cr .
-: expect ' \  
+: expect '  
