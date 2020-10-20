@@ -1,0 +1,55 @@
+Here are the repositories (each is a directory with a .git subdirectory):
+	On Linux:
+		~/git/Forth 	 -- shows up on Eclipse Git Repositories perspective
+			addedOnLinux.txt									19/10 10:57
+						 -- not ignored by Eclipse it turns out. 
+						 -- Changing this provokes a push&commit to GitHub.
+		~/git/repository -- seems to be where Eclipse puts git project folders 
+						 -- shows up on Eclipse Git Repositories perspective
+						 -- everything under here is watched by Eclipse
+						 -- and kept in sync with USB stick						 
+			addedOnLinux.txt									19/10 11:27
+						 -- not ignored by Eclipse
+			/Forth 	     -- shows up as Eclipse project
+				BlueBook.txt -- this file 
+				addedOnLinuxEclipse.txt							19/10 11:02
+				addedOnLinuxEclipseAndCommittedAndPushed.txt	19/10 11:04
+				README.md										16/10 19:41 
+				inheritance.fs									 5/10 16:48
+				tester.fs										14/10 10:33
+				integer.fs										 5/10 16:48
+				wrapper.fs										 5/10 16:27
+				BlockEd.fs										 1/10 12:46
+				
+	On USB stick: 		 -- shows up on Eclipse Git Repositories perspective
+		lots of coded stuff under Git/Git/objects
+						 -- guess this is the place commit-and-push sends 
+						 -- changes to ~/git/repository/Forth 
+						 -- confirmed as Repository on Push Report message from Eclipse
+		
+	GitHub:
+		Forth
+			addedOnLinux.txt
+			
+	Android TermUX:
+		Forth
+				tester.fs										18/10 23:35
+				wrapper.fs										12/10 12:33 
+				inheritance.fs									12/10 12:33 
+				inheritance.fs~									12/10 12:33
+				wrapper.fs~ 									12/10 12:33
+				tester.fs~										12/10 12:33
+				integer.fs~										12/10 12:33
+				integer.fs										12/10 12:33				
+		gitDirectory
+			empty
+			
+In the Git Repositories view of the Git perspective,
+under 'Remotes/origin' are two lines that identify the remote repos:
+	~/git/Forth has https://github.com/JohnFClarke/Forth
+	~/git/repository has /media/john/16GSTICK2/Git/git (it's a bare repo)
+	
+The two lines are
+	fetch 
+	push
+		
