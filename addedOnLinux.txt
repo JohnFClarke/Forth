@@ -1,1 +1,2 @@
 Changed in ~/git/Forth
+This is both under ~/git/repository and under ~/git/repository/Forth
