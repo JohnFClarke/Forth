@@ -102,5 +102,7 @@ And we can maybe scrap ~/git/repository/.git ~/git/repository/.github
 So we renamed ~/git/repository/.git and .github to was.git and was.github
 Had to re-add ~/git/repository/Forth to the Git Repositories view.
 
-Looks like we have lost the connection to /media/john/16GSTICK2/Git
+Looks like we have lost the connection to /media/john/16GSTICK2/Git.
+So also re-added /media/john/16GSTICK2/Git/git (it is --bare). But this doesn't
+have any descendents under Linux '/'. 
 					
