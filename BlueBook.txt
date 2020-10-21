@@ -90,4 +90,16 @@ Disconnect  ~/git/Forth
  delete mode 100644 addedOnLinux.txt
 				
 Disconnect  ~/git/repository
+
+It turns out that changes made in ~/git/repository/Forth directory cause
+  a) staging in ~/git/repository/Forth/.git
+  b) commit activity in github.
+  
+So we don't want to delete ~/git/repository/Forth/.git or ~/git/repository/Forth/.github
+And we can maybe scrap ~/git/repository/.git ~/git/repository/.github
+(,README.md.swp and addedOnLinux.txt have already gone.)
+
+So we renamed ~/git/repository/.git and .github to was.git and was.github
+Had to re-add ~/git/repository/Forth to the Git Repositories view.
+
 					
