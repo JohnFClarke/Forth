@@ -53,3 +53,41 @@ The two lines are
 	fetch 
 	push
 		
+So let's tidy up the not-Eclipse one
+	- let's leave one connected to github
+	- let's not delete the ones under Eclipse
+		these are all in ~/git/repository/Forth;
+			addedOnLinux.txt
+			addedOnLinuxEclipse.txt
+			addedOnLinuxEclipseAndCommitAndPushed.txt
+			BlockEd.fs
+			BlueBook.txt
+			inheritance.fs
+			integer.fs
+			README.md
+			tester.fs
+			wrapper.fs
+		The ones under ~/git/repository/Forth not explicitly in Eclipse:
+			.git
+			.github
+			.project
+	- let's delete the ones not under Eclipse
+		these are all in ~/git/Forth:
+			addedOnLinux.txt
+			.git
+			.github	
+		and in ~git/repository:
+			addedOnLinux.txt
+			.git
+			.github
+			.README.md.swp
+
+Disconnect  ~/git/Forth
+	git rm addedOnLinux.txt
+	git commit
+[main 336906d] git rm addedOnLinux.txt
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 addedOnLinux.txt
+				
+Disconnect  ~/git/repository
+					
