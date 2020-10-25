@@ -1,4 +1,4 @@
-Here are the repositories (each is a directory with a .git subdirectory):
+Here are the repositories (each is a directory with a .git subdirectory): 
 	On Linux:
 		~/git/Forth 	 -- shows up on Eclipse Git Repositories perspective
 			addedOnLinux.txt									19/10 10:57

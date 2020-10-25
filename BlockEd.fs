@@ -1,4 +1,4 @@
-    \ RetroForth Block Editor (http://www.retroforth.org)
+    \ RetroForth Block Editor (http://www.retroforth.org) 
     \ * Released into the public domain *
     \
     \ This is the block editor from RetroForth Release 9.2.1
